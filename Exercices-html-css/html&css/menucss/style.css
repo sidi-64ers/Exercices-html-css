@@ -1,0 +1,44 @@
+
+/*faire disparaire le sous menu*/
+#menu li ul{
+    display: none;
+}
+
+/*afficher le menu en ligne*/
+#menu li{
+    display: inline-block;
+}
+
+/*réaffiche le sousmenu au survol*/
+#menu ul li:hover ul {
+    display: block;
+    
+}
+
+/*fixe la position du sous menu par rapport au menu principal*/
+#menu li ul{
+    position: absolute;
+}
+
+#menu li a{
+
+    color: red;
+}
+#no li a {
+    text-decoration:none;
+    color:black;
+}
+
+/*change la couleur du lien au survol*/
+#menu ul li:hover > a{
+    color:green;
+}
+
+
+#menu ul li ul li a{
+    font-size:33px;
+}
+#menu ul li a {
+    font-size : 55px;
+}
+

@@ -1,0 +1,35 @@
+section{
+    padding: 25px 25px 25px 25px;
+    background-color: rgb(23, 24, 24);
+    width: 150px;
+    height: 350px;
+}
+
+.rouge{
+    background-color: red;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.orange{
+    background-color: rgb(238, 235, 38);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+
+.vert{
+    background-color: rgb(6, 88, 6);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+
+.rouge, .orange, .vert{
+    
+
+}
+

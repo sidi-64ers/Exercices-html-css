@@ -1,0 +1,35 @@
+html, body{
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    
+    background: linear-gradient(45deg, #2b0000 0%, #3f0101 100%);
+}
+
+section{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+
+#homer{
+    background: url("homer-simpson.jpg") 50% 30% no-repeat;
+    margin: auto;
+    border-radius: 15px;
+    width: 350px;
+    height: 350px;
+}
+
+#homer:hover {
+    border-radius: 50%;
+    box-shadow: 20px 20px 10px #000 inset;
+    
+}
+
+
