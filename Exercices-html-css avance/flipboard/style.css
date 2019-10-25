@@ -1,0 +1,47 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(106, 7, 131);
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.photoété, .photoautomne, .photohiver, .photoprintemps{
+    width: 150px;
+    height: 250px;
+    background-color: white;
+    transform-style: preserve-3d; 
+    transition: all 0.4s ease-in-out;
+}
+
+img{
+    width: 200px;
+    height: 300px;
+}
+
+
+.photoété:hover, .photoautomne:hover, .photohiver:hover, .photoprintemps:hover {
+    transform: rotateY(180deg);
+    
+}
+
+.verso{
+    transform: rotateY(180deg);
+    
+}
+
+.recto, .verso{   
+   
+    backface-visibility: hidden;
+
+}
+
+p{
+    color: white;
+}
+     
